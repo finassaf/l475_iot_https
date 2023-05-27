@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stm32f4xx_hal_def.h": "c",
+			"ov7670_control.h": "c",
+			"stm32f4xx_hal.h": "c",
+			"stm32f4xx_hal_conf.h": "c",
+			"main.h": "c",
+			"stm32f4xx_hal_eth.h": "c",
+			"stm32f4xx.h": "c",
+			"stm32f4xx_hal_rcc.h": "c",
+			"platform.h": "c",
+			"cmsis_os.h": "c",
+			"mbedtls.h": "c",
+			"mqtt_task.h": "c",
+			"demo_config.h": "c",
+			"azure_iot_hub_client.h": "c",
+			"check_config.h": "c",
+			"ecdsa.h": "c",
+			"ecp.h": "c",
+			"net_sockets.h": "c",
+			"config.h": "c",
+			"memp_std.h": "c",
+			"stm32fxx_hal_eth.h": "c",
+			"stm32l4xx_hal.h": "c",
+			"stm32l4xx_hal_conf.h": "c",
+			"stm32l4xx_hal_rcc.h": "c",
+			"stm32l4xx_hal_def.h": "c",
+			"stm32l4xx.h": "c",
+			"stdio.h": "c"
+		},
+		"stm32-for-vscode.openOCDPath": false
+	}
+}

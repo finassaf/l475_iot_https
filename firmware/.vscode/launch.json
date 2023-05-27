@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+       {
+            "name": "STDebug",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/l475_iot_http.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            "device": "STM32L475",
+            "interface": "swd",
+            "gdbTarget": ":4242",
+            "preLaunchTask": "build",
+            "svdFile": "${workspaceRoot}/STM32L476.svd",
+            "swoConfig": {}
+        },
+    ]
+}

@@ -1,0 +1,7 @@
+si 1
+speed 40000
+device STM32L475VG
+loadfile build/l475_iot_http.hex
+r
+
+exit

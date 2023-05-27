@@ -1,0 +1,49 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "make",
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "clean",
+        "type": "shell",
+        "command": "make clean",
+        "options": {
+          "cwd": "${workspaceFolder}"
+        }
+      },
+      {
+        "label": "flash_fw",
+        "type": "shell",
+        "command": "jlink -commanderscript jflash.jlink",
+        "options": {
+            "cwd": "${workspaceFolder}"
+        },
+        "presentation": {
+            "clear": true
+        },
+        "problemMatcher": {
+            "base": "$gcc",
+            "fileLocation": [
+                "autoDetect",
+                "${workspaceFolder}"
+            ]
+        }
+    },
+    {
+        "label": "reset",
+        "type": "shell",
+        "command": "&'${env:ST_LINK_PROG}/STM32_Programmer_CLI' -c port=SWD freq=4000 -rst",
+        "options": {
+            "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+    },
+    ]
+  }
